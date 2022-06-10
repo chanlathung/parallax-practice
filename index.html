@@ -11,6 +11,9 @@
     <!-- CSS -->
     <link  href="CSS/styles.css" rel="stylesheet">
 
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +25,7 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">roadtrip</a>
+        <a class="navbar-brand" style="font-family: 'Yellowtail';font-weight: bold;letter-spacing: 5px; " href="#home">roadtrip</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,10 +35,19 @@
               <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#gear">Gear</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#diner">Diner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lodging">Lodging</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destination">Destination</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -45,10 +57,52 @@
     <!-- Hero Section -->
     <div class="hero-image" id="home">
       <div class="hero-text text-center">
-        <h1 class="text-capitalize">This is a road trip</h1>
+        <h1 class="text-capitalize">This is road trip</h1>
       </div>
     </div>
-  
+
+    <!-- Container element -->
+    <div class="parallax-vw" style="display: flex; align-items: center;" >
+      <div class="container" id="gear">
+        <div style="background-color: black;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt optio. Reprehenderit est reiciendis atque nam, sit tenetur inventore magni odit illo quasi repellat laboriosam fuga quae. Sit, molestias corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptates nihil architecto, cupiditate aliquam obcaecati, debitis ab non culpa iusto quis corrupti dolor? Optio sunt dolorum velit perspiciatis aperiam perferendis?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-diner" style="display: flex; align-items: center;" >
+      <div class="container" id="diner">
+        <div style="background-color: black;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt optio. Reprehenderit est reiciendis atque nam, sit tenetur inventore magni odit illo quasi repellat laboriosam fuga quae. Sit, molestias corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptates nihil architecto, cupiditate aliquam obcaecati, debitis ab non culpa iusto quis corrupti dolor? Optio sunt dolorum velit perspiciatis aperiam perferendis?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-lodging" style="display: flex; align-items: center;">
+      <div class="container" id="lodging">
+        <div style="background-color: black;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt optio. Reprehenderit est reiciendis atque nam, sit tenetur inventore magni odit illo quasi repellat laboriosam fuga quae. Sit, molestias corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptates nihil architecto, cupiditate aliquam obcaecati, debitis ab non culpa iusto quis corrupti dolor? Optio sunt dolorum velit perspiciatis aperiam perferendis?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-person" style="display: flex; align-items: center;">
+      <div class="container" id="destination">
+        <div style="background-color: black;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt optio. Reprehenderit est reiciendis atque nam, sit tenetur inventore magni odit illo quasi repellat laboriosam fuga quae. Sit, molestias corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptates nihil architecto, cupiditate aliquam obcaecati, debitis ab non culpa iusto quis corrupti dolor? Optio sunt dolorum velit perspiciatis aperiam perferendis?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: firebrick;text-align: center;padding: 50px;font-size: 20px;color: whitesmoke;" id="footer">
+      <div>Contact</div>
+      <div style="padding-top:20px;font-size: 1.5rem;">
+        <i class="fa fa-twitter p-2" aria-hidden="true"></i>
+        <i class="fa fa-instagram p-2" aria-hidden="true"></i>
+        <i class="fa fa-facebook p-2" aria-hidden="true"></i>
+      </div>
+      <div>&copy 2022 <span>Road Trip</span></div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
